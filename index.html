@@ -1,41 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Project 1</title>
+    <title>Abolanle Jimoh Kafayat - Cybersecurity Engineer</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- NAVIGATION -->
-    <nav>
-        <div>HTML Project 1</div>
+    <header class="site-header">
+        <h1 class="site-title">Abolanle Jimoh Kafayat - Cybersecurity Engineer</h1>
+    </header>
 
-        <div>
-            <a href="index.html">HOME</a>
-            <a href="About.html">ABOUT</a>
-            <a href="Work.html">WORK</a>
-            <a href="Resume.html">RESUME</a>
-            <a href="Contact.html">CONTACT</a>
-        </div>
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
     </nav>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusantium rerum animi voluptate maiores earum. Eius accusamus illo expedita deleniti?q</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, commodi.</p>
 
-    <!-- AUDIO SECTION -->
-     <section>
+    <main class="main-content">
+        <section id="about" class="about-section">
+            <img src="bola.jpg" alt="Abolanle Jimoh Kafayat" class="profile-image">
+            <p class="about-text">Results-oriented Cybersecurity enthusiast. Passionate about
+                securing information and data. I am looking to join an organization where I can leverage my passion for detail-oriented analysis
+                and my strong foundation in Cybersecurity to learn and contribute
+                to the protection and resilience of organizations digital asset.
+                </p>
+          
+        </section>
 
-        <div>
-            <p>ASAKE - PLAYLIST</p>
-        </div>
-        <div>
+        <section id="work" class="work-section">
+            <h2 class="section-title">My Work</h2>
+            <video controls src="Video.mov" class="work-video"></video>
+            <h3 class="subsection-title">Project Examples</h3>
+            <ul class="project-list">
+                <li class="project-item"> Strengthened system security by identifying and recommending fixes for critical vulnerabilities, including CVE-2022-40693 and CVE-2025-22799, reducing the risk of exploitation by 50%..</li>
+                <li class="project-item">Enhanced vulnerability detection by 40% through the strategic use of scanning (Nmap, Nessus, OpenVAS), web enumeration and analysis tools (Nikto), leading to more effective security measures.</li>
+                <li class="project-item">Improved penetration testing effectiveness by 35% through targeted password attacks using Burp Suite Intruder, successfully identifying weak
+                    points in reconnaissance, exploitation, post-exploitation, and privilege escalation processes.
+                    </li>
+            </ul>
+        </section>
 
-            <audio src="asake_dull_official_visualizer_aac_mp3.mp3" controls></audio>
-        </div>
+        <section id="resume" class="resume-section">
+            <h2 class="section-title">Resume</h2>
+            <p class="resume-text">Download my resume to learn more about my qualifications and experience.</p>
+            <a href="Abolanle Jimoh Cybersecurity CV.docx" download="Abolanle_Jimoh_Kafayat_Resume.doc" class="resume-download-link">Download
+                Resume</a>
+            <h3 class="subsection-title">Skills</h3>
+            <ul class="skills-list">
+                <li class="skill-item">Operating Systems: Windows, Linux</li>
+                <li class="skill-item">Security Tools: Qualys, NinjaOne, Nmap, Metasploit, Nessus, Wireshark</li>
+                <li class="skill-item">Network Security: OSI model, Network traffic analysis</li>
+                <li class="skill-item">Frameworks: OWASP Top 10, MITRE ATT&CK, PCIDSS</li>
+                <li class="skill-item">Soft Skills: Problem-solving, Analytical thinking, Effective communication, Attention to detail, Team collaboration</li>
+            </ul>
+        </section>
 
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="contact-text">Please fill out the form below to get in touch.</p>
+            <form action="" method="post" class="contact-form">
+                <label for="name" class="form-label">Name:</label><br>
+                <input type="text" id="name" name="name" class="form-input"><br><br>
+                <label for="email" class="form-label">Email:</label><br>
+                <input type="email" id="email" name="email" class="form-input"><br><br>
+                <label for="message" class="form-label">Message:</label><br>
+                <textarea id="message" name="message" class="form-textarea"></textarea><br><br>
+                <input type="submit" value="Submit" class="form-submit">
+            </form>
+        </section>
+    </main>
 
-     </section>
-
-    <footer>&copy; 2025. All rights reserved</footer>
-
+    <footer class="site-footer">
+        <p class="copyright">&copy; 2025 Abolanle Jimoh Kafayat. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
