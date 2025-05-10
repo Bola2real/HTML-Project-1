@@ -1,0 +1,17 @@
+.fa-heart {
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s;
+  }
+  
+  .fa-heart.liked {
+    color: red;
+  }
+  
+  .fa-plus-circle,
+  .fa-minus-circle,
+  .fa-trash-alt {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
